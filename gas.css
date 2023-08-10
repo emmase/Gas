@@ -5,3 +5,57 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.logo{
+    width: 130px;
+   
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: transparent;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#main-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#main-navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+
+}
+#main-navbar li  a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    color: #FF00CD;
+    transition: 0.3s    ease;
+}
+#sub-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#sub-navbar li {
+    list-style: none;
+    padding: 0 10px;
+    position: relative;
+}
+#sub-navbar li  a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: blue;
+    transition: 0.3s    ease;
+}
+

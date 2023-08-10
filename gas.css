@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .logo{
-    width: 130px;
+    width: 120px;
    
 }
 #header {
@@ -37,7 +37,7 @@
     text-decoration: none;
     font-size: 18px;
     font-weight: 800;
-    color: #FF00CD;
+    color: #FF007C ;
     transition: 0.3s    ease;
 }
 #sub-navbar {

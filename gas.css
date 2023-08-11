@@ -6,17 +6,18 @@
     font-family: 'Poppins', sans-serif;
 }
 .logo{
-    width: 120px;
+    width: 100px;
    
 }
 #header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 10px 80px;
     background: transparent;
-    z-index: 10;
-    position: absolute;
+    z-index: 999;
+    position: -webkit-sticky;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -37,7 +38,8 @@
     text-decoration: none;
     font-size: 18px;
     font-weight: 800;
-    color: #FF007C ;
+    color: white ;
+    text-shadow: 0em 0em 0.3em rgba(255, 0, 119, 0.92);
     transition: 0.3s    ease;
 }
 #sub-navbar {
@@ -56,6 +58,13 @@
     font-size: 14px;
     font-weight: bold;
     color: blue;
+    text-shadow: 0em 0em 0.3em rgba(255, 255, 255, 0.92);
     transition: 0.3s    ease;
+}
+.background-Image{
+    background-image: url(Images/home7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 

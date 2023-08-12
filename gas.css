@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .logo{
-    width: 100px;
+    width: 90px;
    
 }
 #header {
@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 80px;
-    background: transparent;
+    background: black;
     z-index: 999;
     position: -webkit-sticky;
     position: sticky;
@@ -38,8 +38,7 @@
     text-decoration: none;
     font-size: 18px;
     font-weight: 800;
-    color: white ;
-    text-shadow: 0em 0em 0.3em rgba(255, 0, 119, 0.92);
+    color: #ff0088 ;
     transition: 0.3s    ease;
 }
 #sub-navbar {
@@ -57,7 +56,7 @@
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
-    color: blue;
+    color: white;
     text-shadow: 0em 0em 0.3em rgba(255, 255, 255, 0.92);
     transition: 0.3s    ease;
 }
@@ -66,5 +65,99 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+}
+#hero{
+    padding-top: 25px;
+    background-image: url(Images/home7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 82vh;
+}
+#hero-home{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.home h1{
+    font-weight: 800;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0em 0em 0.3em rgba(2, 2, 2, 0.92);
+    padding-bottom: 10px;
+}
+.home .div-box{
+    background-color: white;
+    width: 280px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    border-left:#ff0088 solid 5px;
+
+}
+.home .div-box h3{
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    font-weight: 800;
+    color: #ff0088;
+}
+.home h6{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+    text-shadow: 0em 0em 0.3em rgba(0, 0, 0, 0.92);
+}
+.flier img{
+    width: 300px;
+    border-radius: 120px;
+}
+.download{
+    text-align: center;
+}
+.download li {
+    list-style: none;
+}
+.download li img{
+    width: 200px;
+    padding-top: 20px;
+}
+.download h3{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    padding-bottom: 5px;
+    text-shadow: 0em 0em 0.3em rgba(0, 0, 0, 0.92);
+}
+button{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 0em 0em 0.3em rgba(0, 0, 0, 0.92);
+    border-radius: 4px;
+    font-size: 25px;
+    background-color: transparent;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    height: 10%;
+    width: 15%;
+    align-items: center;
+    border: 1px #ff0088 solid;
+    text-decoration: none;
+    margin-top: 5%;
+   
+   
+}
+button:hover,
+button.active{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s    ease;
 }
 

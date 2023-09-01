@@ -172,7 +172,7 @@ button.active{
     transition: 0.3s    ease;
 }
 #services{
-    background-color: rgb(235, 235, 235);
+    background-color: whitesmoke;
 }
 #services h1{
     font-size: 40px;
@@ -184,62 +184,108 @@ button.active{
 }
 .our-services-open,
 .our-services-end{
-    padding-top: 20px;
+   
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 10px;
+
 }
 .gas {
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
     background-image: url(Images/flier.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 20px;
-    opacity: 1.4;
+    border-radius: 50px;
+    margin-right: 50px;
+    
 }
-.gas h3{
+.gas h3,
+.accessories h3,
+.installations h3,
+.training h3 {
     font-weight: 800;
     text-align: center;
     align-items: center;
-    color: #ff0088;
-    margin-top: 150px;
-   
-    background-color: black;
+    color: white;
+    margin-top: 80px;
+    
+    background-color: transparent;
     border-radius: 50px;
     padding-left: 10px;
     padding-right: 10px;
 }
-.gas a{
-    font-size: 25px;
+.gas h3 a{
+    display: block;
+    font-size: 16px;
     font-weight: 800;
     text-decoration: none;
-    color: #ff0088;
+    color: white;
+    text-shadow: 0em 0em 0.3em rgba(0, 0, 0, 0.92);
+    position: relative;
+    width: 100%;
+    z-index: 99999;
+    
+    height: 92%;
+    
+
+}
+.accessories {
+    width: 200px;
+    height: 200px;
+    background-image: url(Images/accessories.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    margin-right: 20px;
     
 
 }
 .accessories a{
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 800;
     text-decoration: none;
-    color: #ff0088;
+    color: white;
+    text-shadow: 0em 0em 0.3em rgba(0, 0, 0, 0.92);
 
+}
+.installations{
+    width: 200px;
+    height: 200px;
+    background-image: url(Images/install.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    margin-right: 50px; 
 }
 .installations a{
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 800;
     text-decoration: none;
-    color: #ff0088;
+    color: white;
+    text-shadow: 0em 0em 0.3em rgba(0, 0, 0, 0.92);
 
 }
+.training {
+    width: 200px;
+    height: 200px;
+    background-image: url(Images/training.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    margin-right: 20px;  
+}
 .training a{
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 800;
     text-decoration: none;
-    color: #ff0088;
+    color: white;
+    text-shadow: 0em 0em 0.3em rgba(0, 0, 0, 0.92);
 
 }
 

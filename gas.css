@@ -288,6 +288,54 @@ button.active{
     text-shadow: 0em 0em 0.3em rgba(0, 0, 0, 0.92);
 
 }
+.section-p1 {
+    padding: 10px 40px;
+}
+#brands .ser-box  {
+text-align: center;
+padding-bottom: 40px;
+}
+.ser-box img  {
+    width: 170px;
+    height: 150px;
+    
+}
+#brands.ser-box img  .image{
+    width: 170px;
+    height: 150px;
+    border-radius: 10px
+}
+#brands .ser-box button   {
+    border-radius: 10px;
+    background-color: white;
+    color: orangered;
+    border: 0  ;
+    padding: 10px 60px 10px 55px;
+    background-repeat: no-repeat;
+    font-weight: 300;
+    text-decoration: none;
+}
+#brands .ser-box button:hover,
+#brands .ser-box button.active {
+    color: navy;
+    cursor: pointer;
+    transition: 0.3s    ease;
+}
+#brands  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+#brands .section-p1  {
+    align-items: center;
+    justify-content: space-between;
+}
+#brands h5{
+    color: #000080;
+}
 
 
 
